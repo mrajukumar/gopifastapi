@@ -1,0 +1,9 @@
+
+
+services:
+  testgopi:
+    image: gopi
+    container_name: testgopi
+    env_file:
+      - /home/ubuntu/pyvenv.cfg
+
